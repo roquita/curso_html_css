@@ -1,0 +1,73 @@
+/* selector unviersal
+*{
+
+}
+
+*/
+
+/* Selector de elemento */
+p{
+  color: orange;
+}
+
+/* Selector de ID:  <article id="noticia">... */
+#noticia{
+  color: grey;
+}
+
+ /* Selector de clase:  <h1 class="class_h1">... */
+ .class_h1{
+   color: violet;
+ }
+
+/******************************* Pseudo clases ****************************/
+/* Efecto para enlaces */
+a:link{
+  color: yellow;
+}
+a:visited{
+  color: olive;
+}
+
+/* Efecto al posar el cursor sobre button */
+button:hover{
+  color: red;
+}
+/* Efecto al clickear el boton*/
+button:active{
+  color: blue;
+}
+/* Efecto activo en elementos de tipo entrada de texto*/
+input:focus{
+  color: orange;
+}
+li:first-child{
+  background: yellow;
+}
+li:last-child{
+  background: red;
+}
+li:nth-child(2n){
+  background: orange;
+}
+li:nth-child(3n){
+  background: orange;
+}
+
+/****************************** Pseudo elemeentos *************************/
+ h1::before{
+   content: "antes";
+   background: orange;
+ }
+ h1::after{
+   content: "despues";
+   background: orange;
+ }
+
+p::first-letter{
+  font-size: 36px;
+  color: gold;
+}
+p::first-line{
+  color: crimson;
+}
