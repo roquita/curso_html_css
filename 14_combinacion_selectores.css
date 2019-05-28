@@ -1,0 +1,15 @@
+ul li{  /* afecta a los elementos descendientes li dentro de ul */
+  margin-left: 40px;
+}
+ul > li{ /* afecta a los elementos li hijos directos de ul*/
+  margin-left: 40px;
+}
+
+p + p{  /* All <td>s preceded by another <td>*/
+        /* a+b cualquier b que sea hermano inmediato posterior de algun a */
+  background: yellow;
+}
+
+p ~ p{ /* a ~ b  cualquier b que sea hermano posterior de algun a */
+  background: yellow;
+}

@@ -1,0 +1,10 @@
+/*
+formas de nombrarlos: keywords, hexadeciaml, rgb y hsl
+
+pagina para obtener valor hexadecimal de un color
+  www.w3.org/TR/css3-color/
+  ejemplo: #00ff00 => r-g-b (HEXADECIMAL)
+           rgb(255,0,0) =>   (RGB) red green blue
+           rgba(0,0,255,.4) => (RGBA) a:opacidad de 0-1
+
+*/
