@@ -1,12 +1,12 @@
 /*
 Absolutas:
-  
-
-
-
+  mm -milimetros
+  px -pixeles
+  in -inchas
+  cm -centrimetros
 Relativas:
-
-
-
-
+  em -relativo al elemento padre(font size)
+  rem -relativo al elemento raiz
+  ex
+  ch
 */
